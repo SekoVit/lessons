@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+.text-header {
+	color: blue;
+}
+
+#neptyne {
+	color: brown;
+}
+
+.text-ul {
+	color: red;
+}
+
+.text-ol {
+	color: green;
+}
+
+p {
+	color: aquamarine;
+}
+
+.modrocket {
+	color: beige;
+}
+
+#some-fire {
+	color: blueviolet;
+}
+
+div.text-header {
+	color: green;
+}
+
+.page__text.text {
+	color: blue;
+}
+
+.text,
+.lesson {
+	color: red;
+}
+
+.text>p {
+	color: purple;
+}
+
+.text+p {
+	color: orange;
+}
