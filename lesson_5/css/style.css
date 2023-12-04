@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&family=Roboto:wght@500;700&display=swap');
+@font-face {
+	font-family: Causten;
+	src: url(../fonts/Causten-Regular.woff2),
+		url(../fonts/Causten-Regular.woff) font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Causten;
+	src: url(../fonts/Causten-Medium.woff),
+		url(../fonts/Causten-Medium.woff2);
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Causten;
+	src: url(../fonts/Causten-Extra-Bold.woff),
+		url(../fonts/Causten-Extra-Bold.woff2);
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@import url(reset.css);
+body {
+	font-size: 18px;
+	color: #37393F;
+	line-height: 1.27;
+}
+.textinter {
+	color: #7D7D7D;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	line-height: 1.46;
+
+}
+.libold {
+	color: #7D7D7D;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	line-height: 1.46;
+}
+.textus {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+}
+.textproactively {
+	color: #6B77E5;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+.textproject {
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+.textpone {
+	font-size: 38px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 5px 5px 5px rgba(135, 13, 13, 0.961);
+	text-transform: uppercase;
+}
+.textptwo {
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-decoration: underline;
+	text-align: right;
+	text-transform: lowercase;
+}
+.textpthree {
+	font-size: 38px;
+	font-family: 'Causten', sans-serif;
+	font-weight: 400;
+	text-decoration: overline;
+	text-align: justify;
+	text-transform: capitalize;
+	text-indent: 40px;
+}
+.textloremone {
+	font-family: 'Causten', sans-serif;
+	font-size: 25px;
+	font-weight: 800;
+	text-decoration: line-through;
+	text-align: left;
+	word-spacing: 15px;
+}
+.textdivone {
+	font-size: 60px;
+	font-family: 'Causten';
+	font-weight: 500;
+	letter-spacing: 10px;
+}
